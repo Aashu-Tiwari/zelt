@@ -1,0 +1,408 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html.body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+}
+
+#page{
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    background-color: transparent;
+    position: relative;
+}
+
+canvas{
+    max-height: 100vh;
+    max-width: 100vw;
+    position: relative;
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    z-index: 99;
+}
+
+#nav1{
+    height: 10vh;
+    width: 30vw;
+    background-color:rgba(255, 255, 255, 0.398);
+    position: fixed;
+    z-index: 999;
+    top: 1%;
+    left: 50%;
+    transform: translatex(-50%);
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#nav1 img{
+    height:1vmax ;
+}
+
+#nav1 button{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcd6d;
+}
+
+#nav1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#page h1{
+    position: absolute;
+    font-size: 80px;
+    z-index: 99;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+}
+
+#page h4{
+    z-index: 99;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top:  70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 400;
+    color: #565656;
+}
+
+
+#page1 h1{
+    font-size: 90px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 500;
+}
+
+#page1 h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    white-space: nowrap;
+    color: #565656;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: transparent;
+    z-index: 9;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    z-index: 99;
+}
+
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    position: relative;
+    z-index: 99;
+}
+
+#page4 h1{
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#page4 h4{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+#page5{position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f6f3ef;
+    z-index: 99;
+}
+
+#pagecenter5{
+    display: flex;
+    height: 70%;
+    width: 75%;
+    background-color: #e4e0dd;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#center5left{
+    height: 100%;
+    width: 50%;
+    
+}
+
+#center5left svg{
+    scale: 0.7;
+}
+
+#center5right{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    
+    gap: 30px;
+    padding-left: 60px;
+}
+
+#center5right h1{
+    font-weight: 600;
+}
+
+
+#center5right h4{
+    font-weight: 500;
+    width: 70%;
+    color: #1d1c1c85;
+}
+
+
+#center5right button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+#page6{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    z-index: 99;
+    padding: 20px;
+}
+
+.leftpage6{
+    height: 100%;
+    width: 50%;
+    background-color: none;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.leftpage6 h1{
+    margin-top: 30px;
+    font-size: 2.8vw;
+}
+
+
+.leftpage6 h4{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.rightpage6{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    position: relative;
+}
+
+#video{
+    margin-top: 25%;
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    position: relative;
+}
+
+#col1{
+    position: absolute;
+    left: 1%;
+    height: 50vh;
+    width: 10vw;
+    background-color: white;
+    z-index: 99;
+}
+
+
+#col2{
+    position: absolute;
+    left: 79%;
+    height: 50vh;
+    width: 10vw;
+    background-color: white;
+    z-index: 99;
+}
+
+#video video{
+    position: absolute;
+    top: -26%;
+    left: 10%;
+    height: 75vh;
+    width: 40vw;
+}
+
+
+#page7{
+    height: 100vh;
+    width: 100vw;
+    background-color:white;
+    position: relative;
+    display: flex;
+}
+
+#page7part1{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+}
+
+
+#page7part2{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#page7part2 h1{
+    font-size: 5.8vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+#page7part2 h4{
+    margin-top: 20px;
+    font-size: 1.8vw;
+    font-weight: 300;
+    width: 70%;
+}
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+}
+
+#page8part1{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;align-items: center;justify-content: center;flex-direction: column;
+}
+
+#page8part1 h1{
+    text-align: center;
+    font-size: 4.8vw;
+    font-weight: 500;
+}
+
+#page8part1 h4{
+    margin-top: 20px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#page8part2{
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+}
+
+#video1{
+    margin-top: 25%;
+    height: 60vh;
+    width: 50vw;
+    background-color: white;
+    position: relative;
+}
+
+#video1 video{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#col3{
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 90px;
+    background-color: white;
+    z-index: 99;
+}
+
+
+#col4{
+    position: absolute;
+    left: 86.5%;
+    height: 100%;
+    width: 90px;
+    background-color: white;
+    z-index: 99;
+}
